@@ -1,0 +1,45 @@
+# Assigning elements to different lists
+
+# Initialize empty lists
+list1 = []
+list2 = []
+
+# Add elements to list1
+list1.append(10)
+list1.append(20)
+list1.append(30)
+
+# Add elements to list2
+list2.extend([40, 50, 60])
+
+print("List1:", list1)
+print("List2:", list2)
+
+# Accessing elements from a tuple
+
+# Define a tuple
+my_tuple = (10, 20, 30, 40, 50)
+
+# Access elements by index
+first_element = my_tuple[0]
+third_element = my_tuple[2]
+last_element = my_tuple[-1]
+
+print("First element:", first_element)
+print("Third element:", third_element)
+print("Last element:", last_element)
+
+
+# Deleting different dictionary elements
+
+# Define a dictionary
+my_dict = {'name': 'Alice', 'age': 25, 'city': 'New York'}
+
+# Delete an element by key
+del my_dict['age']
+
+# Alternatively, use pop method
+city = my_dict.pop('city')
+
+print("Dictionary after deletions:", my_dict)
+print("Popped city value:", city)
